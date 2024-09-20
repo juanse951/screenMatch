@@ -5,5 +5,5 @@ public class Pelicula {
 
     int duracionEnMinutos;
 
-    boolean incluidoEnElPlan;
+    //boolean incluidoEnElPlan;
 }
