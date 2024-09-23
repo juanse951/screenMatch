@@ -1,28 +1,34 @@
+package com.aluracursos.screenmatch.modelos;
+
 public class Pelicula {
-    String nombre;
+    public String nombre;
 
-    int fechaDeLanzamiento;
+    public int fechaDeLanzamiento;
 
-    int duracionEnMinutos;
+    public int duracionEnMinutos;
 
     //boolean incluidoEnElPlan;
 
-    double sumaDeLasEvaluaciones;
+    private double sumaDeLasEvaluaciones;
 
-    int totalDeLasEvaluaciones;
+    private int totalDeLasEvaluaciones;
 
-    void muestraFichaTecnica(){
+    public int getTotalDeLasEvaluaciones(){
+        return totalDeLasEvaluaciones;
+    }
+
+    public void muestraFichaTecnica(){
         System.out.println("El nombre de la película es: " + nombre);
         System.out.println("Su fecha de lanzamiento es: " + fechaDeLanzamiento);
         System.out.println("Duracion en minutos: " + duracionEnMinutos);
     }
-    void evalua(double nota){
+    public void evalua(double nota){
         sumaDeLasEvaluaciones += nota;
         totalDeLasEvaluaciones++;
 
     }
 
-    double calculaMedia(){
+    public double calculaMedia(){
         return sumaDeLasEvaluaciones / totalDeLasEvaluaciones;
     }
 }
