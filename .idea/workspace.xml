@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment=" Aprovechando el modelo para series">
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/calculos/CalculadoresDeTiempo.java" afterDir="false" />
+    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment="creacion de interfases e implementacion de Clasificacion para series y pelis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/calculos/FiltroRecomendacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/calculos/FiltroRecomendacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Episodio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="modAcesso" />
+        <entry key="$PROJECT_DIR$" value="Interfase" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +61,7 @@
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "modSeries",
+    "git-widget-placeholder": "Interfase",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -115,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727185766948</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aplicando herencia encapsulamiento y polimorfismo">
+      <option name="closed" value="true" />
+      <created>1727361608068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727361608068</updated>
+    </task>
+    <task id="LOCAL-00007" summary="creacion de interfases e implementacion de Clasificacion para series y pelis">
+      <option name="closed" value="true" />
+      <created>1727449430153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727449430153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +138,8 @@
     <MESSAGE value="Definiendo acciones para la película" />
     <MESSAGE value="aplicacion de modificadores de acceso y creacion de paquete" />
     <MESSAGE value=" Aprovechando el modelo para series" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Aprovechando el modelo para series" />
+    <MESSAGE value="Aplicando herencia encapsulamiento y polimorfismo" />
+    <MESSAGE value="creacion de interfases e implementacion de Clasificacion para series y pelis" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de interfases e implementacion de Clasificacion para series y pelis" />
   </component>
 </project>
