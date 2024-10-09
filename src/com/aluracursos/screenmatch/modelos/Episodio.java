@@ -1,8 +1,8 @@
 package com.aluracursos.screenmatch.modelos;
 
-import com.aluracursos.screenmatch.calculos.Clasificacion;
+import com.aluracursos.screenmatch.calculos.Clasificable;
 
-public class Episodio implements Clasificacion {
+public class Episodio implements Clasificable {
     private int numero;
     private String nombre;
     private Serie serie;
@@ -42,10 +42,11 @@ public class Episodio implements Clasificacion {
 
     @Override
     public int getClasificacion() {
-        if (totalVisualizaciones > 100){
+        if (totalVisualizaciones > 100) {
             return 4;
-        }else{
+        } else {
             return 2;
         }
     }
 }
+
