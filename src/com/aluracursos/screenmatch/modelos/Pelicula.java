@@ -5,6 +5,10 @@ import com.aluracursos.screenmatch.calculos.Clasificable;
 public class Pelicula extends Titulo implements Clasificable {
     private String director;
 
+    public Pelicula(String nombre) {
+        this.setNombre(nombre);
+    }
+
     public String getDirector() {
         return director;
     }
