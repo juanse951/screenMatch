@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment="incursionando en los arrays">
+    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment="toString2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Pelicula.java" afterDir="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Interfase2.0" />
+        <entry key="$PROJECT_DIR$" value="toString" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,16 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Interfase2.0&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kim/Documents/cursosOneEtapa3/curso2/NuevaAppDesafio&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Principal.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "constructores1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kim/Documents/cursosOneEtapa3/curso3/screen-match-3-Aula1Final"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -149,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728320162421</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="toString">
+      <option name="closed" value="true" />
+      <created>1728443410587</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728443410587</updated>
+    </task>
+    <task id="LOCAL-00011" summary="toString2.0">
+      <option name="closed" value="true" />
+      <created>1728444405944</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728444405944</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +177,8 @@
     <MESSAGE value="creacion de interfases e implementacion de Clasificacion para series y pelis" />
     <MESSAGE value="mejora de la implementacion de las interfaces" />
     <MESSAGE value="incursionando en los arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="incursionando en los arrays" />
+    <MESSAGE value="toString" />
+    <MESSAGE value="toString2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="toString2.0" />
   </component>
 </project>

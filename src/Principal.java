@@ -1,61 +1,56 @@
-import com.aluracursos.screenmatch.calculos.CalculadoresDeTiempo;
+import com.aluracursos.screenmatch.calculos.CalculadoraDeTiempo;
 import com.aluracursos.screenmatch.calculos.FiltroRecomendacion;
 import com.aluracursos.screenmatch.modelos.Episodio;
 import com.aluracursos.screenmatch.modelos.Pelicula;
 import com.aluracursos.screenmatch.modelos.Serie;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Principal {
-
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula();
-        miPelicula.setNombre("Encanto");
+        Pelicula miPelicula = new Pelicula("El señor de los anillos");
         miPelicula.setFechaDeLanzamiento(2021);
         miPelicula.setDuracionEnMinutos(180);
         System.out.println("Duración de la película: " + miPelicula.getDuracionEnMinutos());
-        //miPelicula.setIncluidoEnElPlan(true);
 
         miPelicula.muestraFichaTecnica();
         miPelicula.evalua(8);
         miPelicula.evalua(5);
         miPelicula.evalua(10);
-        System.out.println("Total de evaluaciones: " + miPelicula.getTotalDeLasEvaluaciones());
-        System.out.println(miPelicula.calculaMedia());
+        System.out.println("Total de evaluaciones: " + miPelicula.getTotalDeEvaluaciones());
+        System.out.println(miPelicula.calculaMediaEvaluaciones());
+
 
         Serie lost = new Serie();
         lost.setNombre("Lost");
         lost.setFechaDeLanzamiento(2000);
-        lost.setTemporadas(10);
-        lost.setMinutosPorEpisodio(50);
-        lost.setEpisodiosPorTemporada(10);
         lost.muestraFichaTecnica();
+        lost.setTemporadas(10);
+        lost.setEpisodiosPorTemporada(10);
+        lost.setMinutosPorEpisodio(50);
         System.out.println("Duracion de la série: " + lost.getDuracionEnMinutos());
 
-        Pelicula otraPelicula = new Pelicula();
-        otraPelicula.setNombre("Avatar");
+        Pelicula otraPelicula = new Pelicula("Avatar");
         otraPelicula.setFechaDeLanzamiento(2023);
         otraPelicula.setDuracionEnMinutos(200);
 
-        CalculadoresDeTiempo calculadora = new CalculadoresDeTiempo();
-        calculadora.incluye(miPelicula);
-        calculadora.incluye(otraPelicula);
-        calculadora.incluye(lost);
-        System.out.println("Tiempo necesario para ver tus titulos favoritos estas vacaciones: " + calculadora.getTiempoTotal() + " minutos");
+        CalculadoraDeTiempo calculadora = new CalculadoraDeTiempo();
+        calculadora.incluido(miPelicula);
+        calculadora.incluido(otraPelicula);
+        calculadora.incluido(lost);
+        System.out.println(calculadora.getTiempoTotal());
 
-        FiltroRecomendacion filtroRecomendacion = new FiltroRecomendacion();
-        filtroRecomendacion.filtra(miPelicula);
+        FiltroRecomendacion filtro = new FiltroRecomendacion();
+        filtro.filtra(miPelicula);
 
         Episodio episodio = new Episodio();
         episodio.setNumero(1);
-        episodio.setNombre("La casa 1");
         episodio.setSerie(lost);
         episodio.setTotalVisualizaciones(300);
+        filtro.filtra(episodio);
 
-        filtroRecomendacion.filtra(episodio);
-
-        var peliculaDeBruno = new Pelicula();
-        peliculaDeBruno.setNombre("El señor de los anillos");
+        var peliculaDeBruno = new Pelicula("El señor de los anillos");
         peliculaDeBruno.setDuracionEnMinutos(180);
         peliculaDeBruno.setFechaDeLanzamiento(2001);
 
@@ -65,12 +60,9 @@ public class Principal {
         listaDePeliculas.add(otraPelicula);
 
         System.out.println("Tamaño de la lista: " + listaDePeliculas.size());
-        System.out.println("La primera película es: " + listaDePeliculas.get(0).getNombre());
-
+        System.out.println("La primera pelicula es: " + listaDePeliculas.get(0).getNombre());
         System.out.println(listaDePeliculas.toString());
-
-        System.out.println("toString de la Película" + listaDePeliculas.get(0).toString());
-
+        System.out.println("toString de la pelicula: " + listaDePeliculas.get(0).toString());
 
 
     }
