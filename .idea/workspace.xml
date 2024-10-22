@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment="empezando con constructores">
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/Principal/PrincipalConListas.java" afterDir="false" />
+    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment="aprendiendo sobre variables y referencias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/Principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/Principal/PrincipalConListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/Principal/PrincipalConListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="toString" />
+        <entry key="$PROJECT_DIR$" value="VariablesYRef" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +65,7 @@
     "Application.PrincipalConListas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "constructores1",
+    "git-widget-placeholder": "compareTo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/kim/Documents/cursosOneEtapa3/curso3/screen-match-3-Aula1Final"
   }
@@ -177,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728534503551</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="aprendiendo sobre variables y referencias">
+      <option name="closed" value="true" />
+      <created>1729345642990</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729345642990</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +198,7 @@
     <MESSAGE value="toString" />
     <MESSAGE value="toString2.0" />
     <MESSAGE value="empezando con constructores" />
-    <option name="LAST_COMMIT_MESSAGE" value="empezando con constructores" />
+    <MESSAGE value="aprendiendo sobre variables y referencias" />
+    <option name="LAST_COMMIT_MESSAGE" value="aprendiendo sobre variables y referencias" />
   </component>
 </project>
