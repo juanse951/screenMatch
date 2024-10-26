@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment="aprendiendo sobre variables y referencias">
+    <list default="true" id="bedc082f-89e3-4747-9cbe-c8ec631f1f87" name="Changes" comment="compareTo comparable y comparate">
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/Principal/PrincipalConBusqueda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/Principal/PrincipalConListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/Principal/PrincipalConListas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Principal.executor": "Run",
+    "Application.PrincipalConBusqueda.executor": "Run",
     "Application.PrincipalConListas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,6 +70,26 @@
     "last_opened_file_path": "C:/Users/kim/Documents/cursosOneEtapa3/curso3/screen-match-3-Aula1Final"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="PrincipalConBusqueda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aluracursos.screenmatch.Principal.PrincipalConBusqueda" />
+      <module name="screenMatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aluracursos.screenmatch.Principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrincipalConBusqueda" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -183,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729345642990</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="compareTo comparable y comparate">
+      <option name="closed" value="true" />
+      <created>1729607084387</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729607084387</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +227,7 @@
     <MESSAGE value="toString2.0" />
     <MESSAGE value="empezando con constructores" />
     <MESSAGE value="aprendiendo sobre variables y referencias" />
-    <option name="LAST_COMMIT_MESSAGE" value="aprendiendo sobre variables y referencias" />
+    <MESSAGE value="compareTo comparable y comparate" />
+    <option name="LAST_COMMIT_MESSAGE" value="compareTo comparable y comparate" />
   </component>
 </project>
